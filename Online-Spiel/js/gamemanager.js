@@ -21,7 +21,7 @@ let gameManager = {
     // und stellt sie im Interface da
     let aktivierInterface = document.querySelector(".interface");
     aktivierInterface.innerHTML =
-      '<img src="./bilder/' + heldenTyp.toLowerCase() + '.jpg" class="img-avatar"> <div> <h3> ' +
+      '<img src="/bilder/' + heldenTyp.toLowerCase() + '.jpg" class="img-avatar"> <div> <h3> ' +
       heldenTyp + '</h3> <p class="leben-spieler"> Leben: ' +
       spieler.leben + '</p> <p class="mana-spieler"> Mana: ' +
       spieler.mana + '</p> <p> Stärke: ' + spieler.stärke +
@@ -63,7 +63,7 @@ let gameManager = {
     getAktion.innerHTML = '<a href="#" class="knopf-prefight" onclick="SpielerBewegung.calcAngriff()"> ATTACKE! </a>';
 
     //gegnerischen Werte werden dargestellt
-    getGegner.innerHTML = '<img src="./bilder/' + gegner.gegnerTyp.toLowerCase() + '.jpg" class="img-avatar"> <div> <h3> ' +
+    getGegner.innerHTML = '<img src="/bilder/' + gegner.gegnerTyp.toLowerCase() + '.jpg" class="img-avatar"> <div> <h3> ' +
       gegner.gegnerTyp + '</h3> <p class="leben-gegner"> Leben: ' +
       gegner.leben + '</p> <p class="mana-gegner"> Mana: ' +
       gegner.mana + '</p> <p> Stärke: ' + gegner.stärke + '</p> <p> Agilität: ' +
