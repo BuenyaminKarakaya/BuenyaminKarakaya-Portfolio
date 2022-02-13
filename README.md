@@ -1,1 +1,112 @@
-# Portfolio
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>My Portfolio</h1>
+						<p>A showcase of my abilities and skills</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+				<header id="header">
+							
+				</header>
+
+				<!-- Nav --> 
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Home</a></li>
+							<li class="active"><a href="abilities.html">Abilities</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://github.com/BuenyaminKarakaya" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2>My Name is Buenyamin</h2>
+									<p>I'm a passionate, self taught, software developer and here are some of my projects</p>
+								</header>
+								 <img src="images/pic01.jpg" class="image main" alt="" />
+								<ul class="actions special">
+									<li><a href="abilities.html" class="button large">Abilites</a></li>
+								</ul>
+							</article>
+
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<h2>Project 1</h2>
+									</header>
+									<a href="Online-Spiel/index.html" class="image fit"><img src="images/pic02.jpg" alt=""/></a>
+									<p>An Online-Game using Html, CSS and Javascript. It's in reference to the D&D game design. </p>
+									<ul class="actions special">
+										<li><a href="Online-Spiel/index.html" class="button">Live Version</a></li>					
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2>Project 2</h2>
+									</header>
+									<a href="Card-Generator/index.html" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+									<p>This is a simple version of the card generation used in the Yu-Gi-Oh! card games. </p>
+									<ul class="actions special">
+										<li><a href="Card-Generator/index.html" class="button">Live Version</a></li>
+									</ul>
+								</article>
+							</section>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section class="split contact">
+							<section>
+								<h3>Email</h3>
+								<p>bunyaminkarakaya2323@gmail.com</p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://github.com/BuenyaminKarakaya" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- bottom -->
+					<div id="bottom">
+						
+					</div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
