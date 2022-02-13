@@ -63,7 +63,7 @@ let gameManager = {
     getAktion.innerHTML = '<a href="#" class="knopf-prefight" onclick="SpielerBewegung.calcAngriff()"> ATTACKE! </a>';
 
     //gegnerischen Werte werden dargestellt
-    getGegner.innerHTML = '<img src="../bilder/' + gegner.gegnerTyp.toLowerCase() + '.jpg" class="img-avatar"> <div> <h3> ' +
+    getGegner.innerHTML = '<img src="bilder/' + gegner.gegnerTyp.toLowerCase() + '.jpg" class="img-avatar"> <div> <h3> ' +
       gegner.gegnerTyp + '</h3> <p class="leben-gegner"> Leben: ' +
       gegner.leben + '</p> <p class="mana-gegner"> Mana: ' +
       gegner.mana + '</p> <p> Stärke: ' + gegner.stärke + '</p> <p> Agilität: ' +
