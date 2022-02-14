@@ -1,13 +1,11 @@
 // ein riesiges Objekt da HTML nur eine Funktion seperat laufen lassen kann
 //Hauptobjekt (ist für das Spiel verantwortlich)
 let gameManager = {
-  // setGameStart ist ein Method von gameManager und
-  // setGameStart ist ein Konstruktor welches resetSpieler für mehrere Klassen zu benutzen
+  //Spiel starten
   setGameStart: function(heldenTyp) {
     this.resetSpieler(heldenTyp);
     this.setPreFight();
   },
-  //resetSpieler ist eine weitere Method von gameManager
   //es setzt die Werte vom Charakter fest
   resetSpieler: function(heldenTyp) {
     switch (heldenTyp) {
@@ -18,7 +16,7 @@ let gameManager = {
         spieler = new Spieler(heldenTyp, 350, 250, 100, 200, 100)
         break;
     }
-    // und stellt sie im Interface da
+    // und stellt die Werte im Interface da
     let aktivierInterface = document.querySelector(".interface");
     aktivierInterface.innerHTML =
       '<img src="bilder/' + heldenTyp.toLowerCase() + '.jpg" class="img-avatar"> <div> <h3> ' +
